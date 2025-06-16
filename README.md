@@ -11,7 +11,8 @@ source bash/silos.sh
 ### Fish
 
 ```
-cp fish/* ~/.config/fish/functions/
+cp fish/silos.fish $__fish_config_dir/functions
+cat fish/fish_user_key_bindings.fish >> $__fish_config_dir/functions/fish_user_key_bindings.fish
 # reload your shell
 ```
 
